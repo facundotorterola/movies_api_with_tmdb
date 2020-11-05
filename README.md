@@ -136,6 +136,44 @@ las peliculas estan ordenadas por ```suggestionScore ```
         "suggestionScore": 2
     }..]
  ```
+ 
+ 
+ 
+ 
+ ### Get all movies with filter
+
+##### Header
+  `Authorization token obtenido en el login` 
+#### Request
+
+`GET /api/movie?keyword=star wars`
+
+#### Response
+las peliculas estan ordenadas por ```suggestionScore ```
+
+  ```
+  [
+    {
+        "popularity": 98.615,
+        "vote_count": 4,
+        "video": false,
+        "poster_path": "/ksil1FjB7AfNk34LAti0636pyTd.jpg",
+        "id": 749336,
+        "adult": false,
+        "backdrop_path": null,
+        "original_language": "en",
+        "original_title": "Star Wars: Wrath of the Mandalorian",
+        "genre_ids": [],
+        "title": "Star Wars: Wrath of the Mandalorian",
+        "vote_average": 8.8,
+        "overview": "Years after the Clone Wars end, Darth Vader sends bounty hunter Boba Fett to Kashyyyk to track down the last of the Jedi. Fett, motivated by revenge for his father's death, proves effective - but he soon finds out a terrible truth about Vader while on the hunt that gives him a change of heart.",
+        "release_date": "2008-07-06",
+        "suggestionScore": 11
+    },..]
+ ```
+ 
+ 
+
 
 ### Get User favorites movies
 
