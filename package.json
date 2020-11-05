@@ -1,0 +1,40 @@
+{
+  "name": "prueba_nodejs_codigo_del_sur",
+  "version": "1.0.0",
+  "description": "Api Rest Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "start_test": "ENV=TEST node api/index.js",
+    "test": "ENV=TEST mocha --timeout 10000 --exit ",
+    "lint": "eslint ./"
+  },
+  "author": "Facundo Torterola",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.1",
+    "moviedb": "^0.2.10",
+    "nanoid": "^3.1.16"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "^2.1.2"
+  }
+}
