@@ -14,11 +14,11 @@ Esta es una API-Rest construida con Nodejs que permite tener usuarios y pelicula
 ## Run the tests
 Para iniciar un servidor con el ambiente de pruebas usamos 
 
-    ```npm run start_test``` 
+    npm run start_test
     
-y luego ejecutamos los test con 
+y luego ejecutamos los test con el servidor levantado ejecutamos 
 
-    ```npm test```
+    npm test
     
     
     
