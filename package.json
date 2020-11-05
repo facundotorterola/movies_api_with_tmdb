@@ -1,5 +1,5 @@
 {
-  "name": "prueba_nodejs_codigo_del_sur",
+  "name": "movie_api_with_tmdb",
   "version": "1.0.0",
   "description": "Api Rest Node.js",
   "main": "index.js",
